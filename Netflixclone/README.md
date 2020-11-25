@@ -33,4 +33,5 @@ https://github.com/Gustavo-Developer/cloneNetflix.git
 
 
 
-e também no meu portfolio : 
+E também no meu portfolio : 
+http://gustavomendes.net/netflixclone/
