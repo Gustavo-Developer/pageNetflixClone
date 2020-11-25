@@ -1,0 +1,119 @@
+/*-------------- Variaveis------------------- */
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+    --branca: #fff;
+}
+
+/*-------------- Gerais------------------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--preta);
+    font-family: "Times New Roman", Times, serif;
+    color: #fff;
+}
+
+/*-------------- Header------------------- */
+.containerg {
+    padding:0px 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+.containerg img {
+    width: 12%;
+    min-width: 100px;
+
+}
+
+.list {
+    padding: 2% 0;
+    a {
+        color: #fff;
+        padding: 0px 10px;
+        text-decoration: none;
+    }
+
+
+}
+
+/*-------------- Main------------------- */
+
+.img-pri
+{
+    background: url(../img/capa.jpg);
+    width: 100%;
+    height: 620px;
+
+    background-size: cover;
+
+}
+
+
+.filme-principal {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ height: 400px;
+ padding-left: 8%;
+}
+
+.info {
+    max-width: 450px;
+}
+
+.title {
+    font-size: 45px;
+}
+
+.button {
+    margin: 12px 8px 0px 0px;
+    padding: 10px 24px;
+    font-size: 18px ;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:nth-child(2){
+    background-color: #31313167;
+    color: #fff;
+    
+
+}
+
+
+.button a:hover {
+    background-color: #313131;
+    color: #fff;
+}
+
+
+
+/*-------------- Carrosel------------------- */
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+.titlefilm {
+    padding: 20px 0px 15px 8%;
+    font-size: 24px;
+}
+
+.carrosel-films {
+    padding-left: 8%;
+}
